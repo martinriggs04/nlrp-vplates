@@ -1,0 +1,106 @@
+{
+    "ui": {
+        "title": "Schimbare numar de inmatriculare",
+        "subtitle_legal": "Inmatriculare oficiala",
+        "subtitle_fake": "Placuta falsa",
+        "badge_legal": "LEGAL",
+        "badge_fake": "FALS",
+        "current": "Numar curent",
+        "new": "Numar nou",
+        "price": "Cost",
+        "confirm": "Confirma",
+        "cancel": "Anuleaza",
+        "hint": "Maxim %s caractere: litere, cifre si spatii.",
+        "hint_format": "Format obligatoriu: %s   (exemplu: %s)",
+        "randomize": "Genereaza un numar aleatoriu",
+        "working": "Se schimba placutele...",
+        "cancel_hint": "BACKSPACE pentru anulare",
+        "empty": "--"
+    },
+
+    "location": {
+        "dmv_mission_row": "DMV - Mission Row",
+        "tuning_sandy": "Atelier - Sandy Shores",
+        "lscustoms_burton": "LS Customs - Burton",
+        "blip": "Inmatriculari"
+    },
+
+    "target": {
+        "label": "Schimba numarul de inmatriculare",
+        "fake_label": "Monteaza placuta falsa",
+        "prompt_key": "E"
+    },
+
+    "msg": {
+        "success": "Numarul de inmatriculare a fost schimbat in %s.",
+        "success_fake": "Placuta falsa montata: %s.",
+        "cancelled": "Actiune anulata.",
+
+        "no_vehicle": "Nu exista niciun vehicul in apropiere.",
+        "not_owner": "Nu detii acest vehicul.",
+        "owned_vehicle": "Vehiculul este inmatriculat legal, placuta falsa nu se prinde.",
+        "vip_only": "Acest serviciu este rezervat membrilor VIP.",
+        "engine_on": "Opreste motorul mai intai.",
+        "in_vehicle": "Trebuie sa fii coborat din vehicul.",
+        "too_far": "Esti prea departe de vehicul.",
+        "no_item": "Nu ai obiectul necesar.",
+        "no_money": "Nu ai destui bani (%s$).",
+        "cooldown": "Mai asteapta %s secunde.",
+        "busy": "Ai deja o actiune in desfasurare.",
+        "npc_busy": "Functionarul este ocupat cu alt client.",
+        "too_far": "Parcheaza masina mai aproape de functionar (%s m distanta).",
+        "scene_failed": "Functionarul nu a putut ajunge la masina.",
+
+        "invalid_plate": "Numar de inmatriculare invalid.",
+        "plate_too_short": "Numarul este prea scurt (minim %s caractere).",
+        "plate_too_long": "Numarul este prea lung (maxim %s caractere).",
+        "plate_format": "Numarul trebuie sa respecte formatul %s.",
+        "plate_blacklisted": "Acest numar este rezervat sau interzis.",
+        "plate_taken": "Acest numar este deja folosit.",
+        "plate_same": "Vehiculul are deja acest numar.",
+
+        "db_error": "Eroare interna. Incearca din nou.",
+        "denied": "Cerere respinsa.",
+        "kicked": "Activitate suspecta detectata (vplates)."
+    },
+
+    "log": {
+        "legal_title": "Inmatriculare schimbata",
+        "fake_title": "Placuta falsa montata",
+        "denied_title": "Cerere respinsa",
+        "exploit_title": "Tentativa de exploit",
+
+        "field_player": "Jucator",
+        "field_old": "Numar vechi",
+        "field_new": "Numar nou",
+        "field_original": "Numar real",
+        "field_fake": "Numar fals",
+        "field_location": "Locatie",
+        "field_cost": "Cost",
+        "field_vehicle": "Vehicul",
+        "field_reason": "Motiv",
+        "field_details": "Detalii",
+        "field_strikes": "Strikes",
+        "server": "SERVER"
+    },
+
+    "sec": {
+        "rate_limit": "rate limit depasit",
+        "invalid_payload": "payload invalid",
+        "invalid_netid": "network id invalid",
+        "no_entity": "entitatea nu exista",
+        "not_vehicle": "entitatea nu este un vehicul",
+        "no_ped": "ped invalid",
+        "far_vehicle": "prea departe de vehicul (%.1fm)",
+        "far_location": "prea departe de locatie (%.1fm)",
+        "bad_location_id": "id locatie invalid",
+        "unknown_location": "locatie inexistenta",
+        "job_denied": "job neautorizat",
+        "unknown_mode": "mod necunoscut: %s",
+        "bad_ticket": "ticket inexistent sau falsificat",
+        "fast_commit": "commit prea rapid (progress bar ocolit)",
+        "not_owner": "vehiculul nu apartine solicitantului",
+        "vip_denied": "acest flux necesita VIP",
+        "db_failed": "update esuat in baza de date"
+    }
+}

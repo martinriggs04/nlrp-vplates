@@ -1,0 +1,106 @@
+{
+    "ui": {
+        "title": "Licence plate change",
+        "subtitle_legal": "Official registration",
+        "subtitle_fake": "Fake plate",
+        "badge_legal": "LEGAL",
+        "badge_fake": "FAKE",
+        "current": "Current plate",
+        "new": "New plate",
+        "price": "Cost",
+        "confirm": "Confirm",
+        "cancel": "Cancel",
+        "hint": "Up to %s characters: letters, digits and spaces.",
+        "hint_format": "Required format: %s   (example: %s)",
+        "randomize": "Generate a random plate",
+        "working": "Swapping plates...",
+        "cancel_hint": "BACKSPACE to cancel",
+        "empty": "--"
+    },
+
+    "location": {
+        "dmv_mission_row": "DMV - Mission Row",
+        "tuning_sandy": "Workshop - Sandy Shores",
+        "lscustoms_burton": "LS Customs - Burton",
+        "blip": "Vehicle registration"
+    },
+
+    "target": {
+        "label": "Change licence plate",
+        "fake_label": "Fit fake plate",
+        "prompt_key": "E"
+    },
+
+    "msg": {
+        "success": "Licence plate changed to %s.",
+        "success_fake": "Fake plate fitted: %s.",
+        "cancelled": "Action cancelled.",
+
+        "no_vehicle": "No vehicle nearby.",
+        "not_owner": "You do not own this vehicle.",
+        "owned_vehicle": "This vehicle is legally registered, fake plates will not fit.",
+        "vip_only": "This service is reserved for VIP members.",
+        "engine_on": "Turn the engine off first.",
+        "in_vehicle": "You must be outside the vehicle.",
+        "too_far": "You are too far from the vehicle.",
+        "no_item": "You are missing the required item.",
+        "no_money": "Not enough money ($%s).",
+        "cooldown": "Wait %s more seconds.",
+        "busy": "You already have an action in progress.",
+        "npc_busy": "The clerk is busy with another customer.",
+        "too_far": "Park the vehicle closer to the clerk (%s m away).",
+        "scene_failed": "The clerk could not reach the vehicle.",
+
+        "invalid_plate": "Invalid licence plate.",
+        "plate_too_short": "Plate is too short (minimum %s characters).",
+        "plate_too_long": "Plate is too long (maximum %s characters).",
+        "plate_format": "The plate must match the format %s.",
+        "plate_blacklisted": "This plate is reserved or forbidden.",
+        "plate_taken": "This plate is already in use.",
+        "plate_same": "The vehicle already uses this plate.",
+
+        "db_error": "Internal error. Please try again.",
+        "denied": "Request denied.",
+        "kicked": "Suspicious activity detected (vplates)."
+    },
+
+    "log": {
+        "legal_title": "Licence plate changed",
+        "fake_title": "Fake plate fitted",
+        "denied_title": "Request denied",
+        "exploit_title": "Exploit attempt",
+
+        "field_player": "Player",
+        "field_old": "Old plate",
+        "field_new": "New plate",
+        "field_original": "Real plate",
+        "field_fake": "Fake plate",
+        "field_location": "Location",
+        "field_cost": "Cost",
+        "field_vehicle": "Vehicle",
+        "field_reason": "Reason",
+        "field_details": "Details",
+        "field_strikes": "Strikes",
+        "server": "SERVER"
+    },
+
+    "sec": {
+        "rate_limit": "rate limit exceeded",
+        "invalid_payload": "malformed payload",
+        "invalid_netid": "invalid network id",
+        "no_entity": "entity does not exist",
+        "not_vehicle": "entity is not a vehicle",
+        "no_ped": "invalid player ped",
+        "far_vehicle": "too far from the vehicle (%.1fm)",
+        "far_location": "too far from the location (%.1fm)",
+        "bad_location_id": "invalid location id",
+        "unknown_location": "unknown location",
+        "job_denied": "job not authorised",
+        "unknown_mode": "unknown mode: %s",
+        "bad_ticket": "missing or forged ticket",
+        "fast_commit": "commit too fast (progress bar bypassed)",
+        "not_owner": "vehicle not owned by the requester",
+        "vip_denied": "VIP required for this flow",
+        "db_failed": "database update failed"
+    }
+}

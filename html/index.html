@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'none'; style-src 'self'; script-src 'self'; img-src 'self' data:; connect-src *;" />
+    <title>nlrp-vplates</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Interaction prompt -->
+    <div id="prompt" class="prompt hidden">
+        <span class="prompt__key" id="prompt-key">E</span>
+        <span class="prompt__label" id="prompt-label"></span>
+    </div>
+
+    <!-- Notifications -->
+    <div id="toasts" class="toasts"></div>
+
+    <!-- Progress -->
+    <div id="progress" class="progress hidden">
+        <div class="progress__label" id="progress-label"></div>
+        <div class="progress__track"><div class="progress__fill" id="progress-fill"></div></div>
+        <div class="progress__hint" id="progress-hint"></div>
+    </div>
+
+    <!-- Dialog -->
+    <div id="overlay" class="overlay hidden">
+        <div class="dialog" id="dialog">
+            <header class="dialog__head">
+                <div>
+                    <h1 id="ui-title"></h1>
+                    <p id="ui-subtitle" class="dialog__subtitle"></p>
+                </div>
+                <div class="dialog__badge" id="ui-mode"></div>
+            </header>
+
+            <section class="dialog__body">
+                <div class="field">
+                    <label id="lbl-current"></label>
+                    <div class="plate plate--muted" id="plate-current"></div>
+                </div>
+
+                <div class="field">
+                    <label id="lbl-new" for="plate-input"></label>
+                    <div class="plate plate--live" id="plate-preview">--</div>
+                    <div class="input-row">
+                        <input id="plate-input" type="text" autocomplete="off" spellcheck="false"
+                               maxlength="8" aria-describedby="hint" />
+                        <button type="button" class="btn btn--dice hidden" id="btn-random">&#9861;</button>
+                    </div>
+                    <small id="hint" class="hint"></small>
+                    <small id="error" class="error hidden"></small>
+                </div>
+
+                <div class="field field--row" id="price-row">
+                    <span id="lbl-price"></span>
+                    <strong id="ui-price"></strong>
+                </div>
+            </section>
+
+            <footer class="dialog__foot">
+                <button type="button" class="btn btn--ghost" id="btn-cancel"></button>
+                <button type="button" class="btn btn--primary" id="btn-confirm" disabled></button>
+            </footer>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
